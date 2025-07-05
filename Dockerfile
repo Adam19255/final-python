@@ -16,10 +16,6 @@ COPY . .
 # Expose port 5000
 EXPOSE 5000
 
-# Set environment variables
-ENV FLASK_APP=app.py
-ENV FLASK_ENV=production
-
 # Create database directory
 RUN mkdir -p /app/data
 
